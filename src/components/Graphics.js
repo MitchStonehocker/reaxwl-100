@@ -30,7 +30,7 @@ export default class Graphics extends React.Component {
     const graphic = this.state.apiString ? (
       <img src={this.state.apiString} alt='sin[a]' />
     ) : (
-      <p>Enter a number.</p>
+      <p>Enter a number. Get a graph of Sin()</p>
     )
 
     return (

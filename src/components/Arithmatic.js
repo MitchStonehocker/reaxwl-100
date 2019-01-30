@@ -58,8 +58,8 @@ export default class Arthmatic extends React.Component {
         />
         <button onClick={event => this.onSubmit(event)}>CALCULATE</button>
         <br />
-        <h4>Result: {this.state.apiReturn.wcResult}</h4>
-        <h4>Grammar: {this.state.apiReturn.wcGrammar}</h4>
+        <p>Number result: {this.state.apiReturn.wcResult}</p>
+        <p>Grammar result: {this.state.apiReturn.wcGrammar}</p>
       </form>
     )
   }
