@@ -1,5 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This is a simple ReactJS, Axios, Wolfram Cloud app that shows the ease with which the computational power of Mathematica can be leveraged via the Wolfram Cloud.
+
+Requirements are:
+
+- Environment:
+  - Node & create-react-app
+    - https://nodejs.org/en/
+    - https://reactjs.org/docs/create-a-new-react-app.html
+  - Wolfram Cloud account (free - https://www.wolframcloud.com/)
+  - Open the 'package.json' file and look at the 'dependencies' section to see npm install... requirements
+
 ## Available Scripts
 
 In the project directory, you can run:
