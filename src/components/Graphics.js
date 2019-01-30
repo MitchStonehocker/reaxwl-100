@@ -26,7 +26,7 @@ export default class Graphics extends React.Component {
   }
 
   render () {
-    console.log('this.state.apiString', this.state.apiString)
+    // console.log('this.state.apiString', this.state.apiString)
     const graphic = this.state.apiString ? (
       <img src={this.state.apiString} alt='sin[a]' />
     ) : (
